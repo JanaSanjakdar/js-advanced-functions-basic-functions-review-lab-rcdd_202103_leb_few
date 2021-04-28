@@ -28,12 +28,9 @@ const Calculator = {
       }
 }
 
-function actionApplyer (integer, array){
-  let a = integer
-
-  for (let i = 0; i < array.length; i++ ){
-    a = array[i](a)
-  }
-
-  return a
+function actionApplyer (integer, fctnArray){
+  fctnArray.forEach(func => {
+    integer = func(integer)
+  });
+  return integer
 }
