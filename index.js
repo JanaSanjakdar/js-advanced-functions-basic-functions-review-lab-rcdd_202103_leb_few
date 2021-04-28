@@ -12,4 +12,3 @@ function wrapAdjective (wrap='*'){
     return `You are ${wrap}${adjective}${wrap}!`
   }
 }
-
