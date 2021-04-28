@@ -20,5 +20,5 @@ const Calculator = {
   subtract: function(a,b){
     return a-b;
   }
-  
+
 }
