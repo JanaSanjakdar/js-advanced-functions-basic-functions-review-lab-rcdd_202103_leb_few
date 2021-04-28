@@ -12,3 +12,9 @@ function wrapAdjective (wrap='*'){
     return `You are ${wrap}${adjective}${wrap}!`
   }
 }
+
+const Calculator = {
+  add: function(a,b){
+    return a+b;
+  }
+}
